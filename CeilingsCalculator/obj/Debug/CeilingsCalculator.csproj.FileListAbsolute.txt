@@ -1,0 +1,10 @@
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\bin\Debug\CeilingsCalculator.exe.config
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\bin\Debug\CeilingsCalculator.exe
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\bin\Debug\CeilingsCalculator.pdb
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Debug\CeilingsCalculator.csproj.AssemblyReference.cache
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Debug\CeilingsCalculator.Form1.resources
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Debug\CeilingsCalculator.Properties.Resources.resources
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Debug\CeilingsCalculator.csproj.GenerateResource.cache
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Debug\CeilingsCalculator.csproj.CoreCompileInputs.cache
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Debug\CeilingsCalculator.exe
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Debug\CeilingsCalculator.pdb

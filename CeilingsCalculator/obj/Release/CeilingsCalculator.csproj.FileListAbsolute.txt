@@ -1,0 +1,9 @@
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\bin\Release\CeilingsCalculator.exe.config
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\bin\Release\CeilingsCalculator.exe
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\bin\Release\CeilingsCalculator.pdb
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Release\CeilingsCalculator.Form1.resources
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Release\CeilingsCalculator.Properties.Resources.resources
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Release\CeilingsCalculator.csproj.GenerateResource.cache
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Release\CeilingsCalculator.csproj.CoreCompileInputs.cache
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Release\CeilingsCalculator.exe
+C:\Users\fourn\source\repos\CeilingsCalculator\CeilingsCalculator\obj\Release\CeilingsCalculator.pdb
