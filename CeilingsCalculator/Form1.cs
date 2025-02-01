@@ -51,11 +51,21 @@ namespace CeilingsCalculator
                 result = CalculateCeiling(value, pot);
                 shCBox.Text = result.ToString();
             }
+            else if (shCBox.Text != null && int.TryParse(shCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                shBox.Text = result.ToString();
+            }
 
             if (plBox.Text != null && int.TryParse(plBox.Text, out value) && int.TryParse(potBox.Text, out pot))
             {
                 result = CalculateCeiling(value, pot);
                 plCBox.Text = result.ToString();
+            }
+            else if (plCBox.Text != null && int.TryParse(plCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                plBox.Text = result.ToString();
             }
 
             if (stBox.Text != null && int.TryParse(stBox.Text, out value) && int.TryParse(potBox.Text, out pot))
@@ -63,11 +73,21 @@ namespace CeilingsCalculator
                 result = CalculateCeiling(value, pot);
                 stCBox.Text = result.ToString();
             }
+            else if (stCBox.Text != null && int.TryParse(stCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                stBox.Text = result.ToString();
+            }
 
             if (chBox.Text != null && int.TryParse(chBox.Text, out value) && int.TryParse(potBox.Text, out pot))
             {
                 result = CalculateCeiling(value, pot);
                 chCBox.Text = result.ToString();
+            }
+            else if (chCBox.Text != null && int.TryParse(chCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                chBox.Text = result.ToString();
             }
 
             if (poBox.Text != null && int.TryParse(poBox.Text, out value) && int.TryParse(potBox.Text, out pot))
@@ -75,11 +95,21 @@ namespace CeilingsCalculator
                 result = CalculateCeiling(value, pot);
                 poCBox.Text = result.ToString();
             }
+            else if (poCBox.Text != null && int.TryParse(poCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                poBox.Text = result.ToString();
+            }
 
             if (hitBox.Text != null && int.TryParse(hitBox.Text, out value) && int.TryParse(potBox.Text, out pot))
             {
                 result = CalculateCeiling(value, pot);
                 hitCBox.Text = result.ToString();
+            }
+            else if (hitCBox.Text != null && int.TryParse(hitCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                hitBox.Text = result.ToString();
             }
 
             if (skBox.Text != null && int.TryParse(skBox.Text, out value) && int.TryParse(potBox.Text, out pot))
@@ -87,11 +117,21 @@ namespace CeilingsCalculator
                 result = CalculateCeiling(value, pot);
                 skCBox.Text = result.ToString();
             }
+            else if (skCBox.Text != null && int.TryParse(skCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                skBox.Text = result.ToString();
+            }
 
             if (enBox.Text != null && int.TryParse(enBox.Text, out value) && int.TryParse(potBox.Text, out pot))
             {
                 result = CalculateCeiling(value, pot);
                 enCBox.Text = result.ToString();
+            }
+            else if (enCBox.Text != null && int.TryParse(enCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                enBox.Text = result.ToString();
             }
 
             if (peBox.Text != null && int.TryParse(peBox.Text, out value) && int.TryParse(potBox.Text, out pot))
@@ -99,11 +139,21 @@ namespace CeilingsCalculator
                 result = CalculateCeiling(value, pot);
                 peCBox.Text = result.ToString();
             }
+            else if (peCBox.Text != null && int.TryParse(peCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                peBox.Text = result.ToString();
+            }
 
             if (faBox.Text != null && int.TryParse(faBox.Text, out value) && int.TryParse(potBox.Text, out pot))
             {
                 result = CalculateCeiling(value, pot);
                 faCBox.Text = result.ToString();
+            }
+            else if (faCBox.Text != null && int.TryParse(faCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                faBox.Text = result.ToString();
             }
 
             if (leBox.Text != null && int.TryParse(leBox.Text, out value) && int.TryParse(potBox.Text, out pot))
@@ -111,84 +161,23 @@ namespace CeilingsCalculator
                 result = CalculateCeiling(value, pot);
                 leCBox.Text = result.ToString();
             }
+            else if (leCBox.Text != null && int.TryParse(leCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            {
+                result = CalculateStat(value, pot);
+                leBox.Text = result.ToString();
+            }
 
             if (strBox.Text != null && int.TryParse(strBox.Text, out value) && int.TryParse(potBox.Text, out pot))
             {
                 result = CalculateCeiling(value, pot);
                 strCBox.Text = result.ToString();
             }
-
-            if (shCBox.Text != null && int.TryParse(shCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                shBox.Text = result.ToString();
-            }
-
-            if (plCBox.Text != null && int.TryParse(plCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                plBox.Text = result.ToString();
-            }
-
-            if (stCBox.Text != null && int.TryParse(stCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                stBox.Text = result.ToString();
-            }
-
-            if (chCBox.Text != null && int.TryParse(chCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                chBox.Text = result.ToString();
-            }
-
-            if (poCBox.Text != null && int.TryParse(poCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                poBox.Text = result.ToString();
-            }
-
-            if (hitCBox.Text != null && int.TryParse(hitCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                hitBox.Text = result.ToString();
-            }
-
-            if (skCBox.Text != null && int.TryParse(skCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                skBox.Text = result.ToString();
-            }
-
-            if (enCBox.Text != null && int.TryParse(enCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                enBox.Text = result.ToString();
-            }
-
-            if (peCBox.Text != null && int.TryParse(peCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                peBox.Text = result.ToString();
-            }
-
-            if (faCBox.Text != null && int.TryParse(faCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                faBox.Text = result.ToString();
-            }
-
-            if (leCBox.Text != null && int.TryParse(leCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
-            {
-                result = CalculateStat(value, pot);
-                leBox.Text = result.ToString();
-            }
-
-            if (strCBox.Text != null && int.TryParse(strCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
+            else if (strCBox.Text != null && int.TryParse(strCBox.Text, out value) && int.TryParse(potBox.Text, out pot))
             {
                 result = CalculateStat(value, pot);
                 strBox.Text = result.ToString();
             }
+
             int off = CalculateOff();
             offBox.Text = off.ToString();
 
